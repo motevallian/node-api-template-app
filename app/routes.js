@@ -2,7 +2,7 @@
  * Created by amotevallian on 27/02/2016.
  */
 
-import timesheetRouter from './timesheet/timesheet-controller.js';
+import userRouter from './user-management/user-controller.js';
 import authRouter from './authentication/auth-controller.js';
 
 const API_BASE_PATH = '/api';

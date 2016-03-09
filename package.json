@@ -13,7 +13,6 @@
     "gen-uuid": "0.0.1",
     "lodash": "^4.6.1",
     "mongoose": "^4.4.5",
-    "nightmare": "^2.2.0",
     "node-uuid": "^1.4.7"
   },
   "devDependencies": {

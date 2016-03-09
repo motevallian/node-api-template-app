@@ -1,0 +1,7 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    "system-import-transformer",
+    "babel-root-import"
+  ]
+}

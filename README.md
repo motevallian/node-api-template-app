@@ -17,11 +17,15 @@ git clone git@github.com:developit/node-api-template-app.git
 cd node-api-template-app
 
 # Make it your own
-rm -rf .git && git init
+rm -rf .git && git init && npm install
 
-# Run it
+#Run via npm with default port (3000):
+npm start
+
+# Run via npm and defining the port:
 PORT=3000 npm start
 
+#run
 # With nodemon:
 PORT=3000 nodemon
 ```
