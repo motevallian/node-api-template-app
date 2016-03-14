@@ -1,7 +1,7 @@
 {
   "presets": ["es2015"],
   "plugins": [
-    "system-import-transformer",
+    ["system-import-transformer", { "modules": "common" }],
     "babel-root-import"
   ]
 }

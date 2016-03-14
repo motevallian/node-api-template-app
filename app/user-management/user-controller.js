@@ -13,6 +13,8 @@ const USERS_URL = '/users';
 const USER_ID_URL = USERS_URL + '/:user_id';
 const USER_PROFILE_URL = '/profile/:user_id';
 
+console.log('user controller loaded!');
+
 router.route(USERS_URL)
     .get((req, res) => {
         userService.findAllUsers()

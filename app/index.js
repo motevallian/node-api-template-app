@@ -36,11 +36,13 @@ dbConfig.connectToDB()
 
 		//  API - configuring all the endpoints API exposes.
 		console.log('configuring routes');
-		configRoutes(app);
-
+		return configRoutes(app);
+	}).then(() => {
 		let listener = app.listen(process.env.PORT || 3000, () => {
 			console.log(`Started on port ${listener.address().port}`);
 		});
+	}).catch((err) => {
+		console.log(err);
 	});
 
 export default app;

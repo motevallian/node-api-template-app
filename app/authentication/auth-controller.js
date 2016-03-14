@@ -12,6 +12,8 @@ let router = Router();
 const LOGIN_URL = '/login';
 const AUTHENTICATION_FAILED_STATUS = 401;
 
+console.log('auth controller loaded!');
+
 router.route(LOGIN_URL)
     .post((req, res) => {
         handleLoginRequest(req, res);
