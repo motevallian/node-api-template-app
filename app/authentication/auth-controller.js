@@ -3,7 +3,6 @@
  */
 
 
-//TODO @Craig: Add the authentication logic in here. I reckon we should keep it simple for now.
 import {Router} from 'express';
 import authService from './auth-service';
 
